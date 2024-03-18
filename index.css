@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: brown;
+
+}
+img {
+    display: block;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
