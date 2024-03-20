@@ -3,11 +3,14 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    font-family: "Lato", sans-serif;
+}
+/*=======body-styling======*/
 main{
     max-width: 1000px;
     margin: 0 auto;
-    background-color: brown;
+    /*background-color: brown;*/
 
 }
 img {
@@ -16,10 +19,122 @@ img {
 header {
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
+    padding: .75rem;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
 }
-
 .logo {
     display: flex;
     gap: 1rem;
     align-items: center;
+}
+
+.contact {
+    margin-top: 1em;
+}
+.contact-btn {
+    padding: .75rem;
+    border-radius: 5px;
+    color: #1D8306;/*rgb(59,147,40);*/
+    background-color: #d0e1cc;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.body-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.Left-section {
+    margin-top: 4rem;
+}
+/*=======Typography======*/
+.first-p{
+    margin-top: 3rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+
+}
+.second-p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: .25em;
+    text-align: center;
+    color: #646e7a;
+}
+.admin-p {
+    margin-top: .75rem;
+
+    > a{
+        color: rgb(0,0,238);
+    }
+}
+
+span {
+    color: #1a8103;
+    font-weight: 800;
+    font-size: .90rem;
+}
+.logo-p {
+    font-size: 1rem;
+    font-weight: 800;
+}
+.Copyright-p {
+    margin-top: 2rem;
+    font-size: .75rem;
+    color: #646e7a;
+}
+h1 {
+    font-size: 1.152rem;
+    font-weight: 800;
+}
+.middle {
+    padding-top: 2rem;
+}
+
+/*=======input/button======*/
+label {
+    font-size: 1rem;
+    font-weight: 600;
+}
+input {
+    display: block;
+    color: #646e7a;
+    border-radius: 5px;
+    border: none;
+    width: 500px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border:3px solid #edeff2;
+  }
+.login-btn {
+    display: block;
+    color: whitesmoke;
+    font-size: 1rem;
+    background-color: #73a768/*#1d8306*/;
+    border-radius: 5px;
+    border: none;
+    width: 500px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border:2px solid #edeff2;
+}
+
+/*=======footer======*/
+.footer {
+   text-align: center; 
+}
+.otp-div{ 
+    margin: 1rem 0;
+
+    > a{
+        color: rgb(0,0,238);
+    }
+}
+.vertical {
+    border-left: 3px solid black;
+    margin: .25rem;
+    /*position:absolute;*/
 }
